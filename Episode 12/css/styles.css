@@ -1,0 +1,69 @@
+/* div.box1{
+  height: 100px;
+  width: 300px;
+  background-color: antiquewhite;
+} */
+
+/* Cara diatas sama di bawah ini sama saja tpi lebih rekomendasi cara di bawah ini cuma pakai awalan titik doang */
+
+.box1{
+  height: 100px;
+  width: 300px;
+  background-color:aqua;
+}
+
+.box1 p{
+  height: 75%;
+  width: 75%;
+  background-color: bisque;
+}
+
+.box2{
+  height: 200px;
+  width: 400px;
+  background-color: aquamarine;
+}
+
+.box2 h2{
+  width: 25%;
+  background-color: bisque;
+}
+
+.box2 p{
+  width: 50%;
+  background-color: coral;
+}
+
+table{
+  background-color: darkorange;
+}
+
+/* Ukuran Minimum dan maksimum dari box */
+
+.deskripsi{
+  min-width: 450px;
+  max-width: 500px;
+  background-color: pink;
+}
+
+td{
+  background-color: deeppink;
+}
+
+/* Overflow */
+h2,h3{
+  font-family: Arial;
+  color: dodgerblue;
+}
+
+p.satu{
+  height: 100px;
+  width: 200px;
+  overflow: hidden;
+}
+
+p.dua{
+  height: 100px;
+  width: 200px;
+  overflow: scroll;
+}
